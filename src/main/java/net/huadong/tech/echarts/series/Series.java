@@ -35,7 +35,7 @@ import net.huadong.tech.echarts.style.ItemStyle;
 /**
  * Description: Series
  *
- * @author liuzh
+ * @author 123
  */
 @Getter
 @Setter
