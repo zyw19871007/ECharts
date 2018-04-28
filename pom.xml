@@ -26,34 +26,34 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.abel533</groupId>
-    <artifactId>ECharts</artifactId>
-    <version>3.0.0.2</version>
+    <groupId>net.huadong.tech</groupId>
+    <artifactId>hd-shippic-echarts4-java</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ECharts</name>
-    <description>这是一个针对ECharts3.0版本的Java类库，实现了所有ECharts中的Json结构对应的Java对象，并且可以很方便的创建Option,Series等</description>
-    <url>https://github.com/abel533</url>
+    <description>这是一个针对ECharts4.0版本的Java类库，实现了所有ECharts中的Json结构对应的Java对象，并且可以很方便的创建Option,Series等</description>
+    <!--<url>https://github.com/abel533</url>-->
 
-    <licenses>
-        <license>
-            <name>The MIT License (MIT)</name>
-            <url>https://github.com/abel533/ECharts/blob/master/LICENSE</url>
-        </license>
-    </licenses>
+    <!--<licenses>-->
+        <!--<license>-->
+            <!--<name>The MIT License (MIT)</name>-->
+            <!--<url>https://github.com/abel533/ECharts/blob/master/LICENSE</url>-->
+        <!--</license>-->
+    <!--</licenses>-->
 
     <developers>
         <developer>
-            <name>abel533</name>
-            <email>abel533@gmail.com</email>
+            <name>zyw19871007</name>
+            <email>zyw19871007@163.com</email>
         </developer>
     </developers>
 
-    <scm>
-        <connection>scm:git:git@github.com:abel533/ECharts.git</connection>
-        <developerConnection>scm:git:git@github.com:abel533/ECharts.git</developerConnection>
-        <url>git@github.com:abel533/ECharts.git</url>
-    </scm>
+    <!--<scm>-->
+        <!--<connection>scm:git:git@github.com:abel533/ECharts.git</connection>-->
+        <!--<developerConnection>scm:git:git@github.com:abel533/ECharts.git</developerConnection>-->
+        <!--<url>git@github.com:abel533/ECharts.git</url>-->
+    <!--</scm>-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -98,83 +98,24 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
-    <profiles>
-        <profile>
-            <id>release</id>
-            <build>
-                <plugins>
-                    <!--Compiler-->
-                    <plugin>
-                        <artifactId>maven-compiler-plugin</artifactId>
-                        <configuration>
-                            <source>1.6</source>
-                            <target>1.6</target>
-                        </configuration>
-                    </plugin>
-                    <!-- Source -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-source-plugin</artifactId>
-                        <version>2.2.1</version>
-                        <executions>
-                            <execution>
-                                <phase>package</phase>
-                                <goals>
-                                    <goal>jar-no-fork</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                    <!-- Javadoc -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>2.9.1</version>
-                        <executions>
-                            <execution>
-                                <phase>package</phase>
-                                <goals>
-                                    <goal>jar</goal>
-                                </goals>
-                                <configuration>
-                                    <additionalparam>-Xdoclint:none</additionalparam>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                    <!-- GPG mvn clean deploy -P release -Dgpg.passphrase=YourPassphase-->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-gpg-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>sign-artifacts</id>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>sign</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-            <distributionManagement>
-                <snapshotRepository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-                </snapshotRepository>
-                <repository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-                </repository>
-            </distributionManagement>
-        </profile>
-    </profiles>
+    <!-- 发布到华东私有库上 -->
+    <distributionManagement>
+        <repository>
+            <id>huadong.net</id>
+            <name>jason001</name>
+            <url>http://m.huadong.net/repository/internal</url>
+        </repository>
+        <snapshotRepository>
+            <id>huadong.net</id>
+            <name>jason002</name>
+            <url>http://m.huadong.net/repository/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
