@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.SeriesType;
-import com.github.abel533.echarts.code.ShowEffectOn;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.EffectType;
+import net.huadong.tech.echarts.code.SeriesType;
+import net.huadong.tech.echarts.code.ShowEffectOn;
 import net.huadong.tech.echarts.series.other.RippleEffect;
 
 /**

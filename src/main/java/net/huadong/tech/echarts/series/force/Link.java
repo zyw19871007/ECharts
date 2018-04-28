@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.series.force;
 
-import com.github.abel533.echarts.style.ItemStyle;
-import com.github.abel533.echarts.style.LineStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.ItemStyle;
+import net.huadong.tech.echarts.style.LineStyle;
 
 import java.io.Serializable;
 

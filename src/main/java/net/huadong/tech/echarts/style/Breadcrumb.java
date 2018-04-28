@@ -24,7 +24,7 @@
 
 package net.huadong.tech.echarts.style;
 
-import com.github.abel533.echarts.code.X;
+import net.huadong.tech.echarts.code.X;
 import net.huadong.tech.echarts.code.Y;
 
 import java.io.Serializable;
@@ -65,7 +65,7 @@ public class Breadcrumb implements Serializable {
     /**
      * 图形样式
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     private ItemStyle itemStyle;
     /**

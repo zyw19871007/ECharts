@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.Calculation;
-import com.github.abel533.echarts.code.SelectedMode;
-import com.github.abel533.echarts.code.SeriesType;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Calculation;
+import net.huadong.tech.echarts.code.SelectedMode;
+import net.huadong.tech.echarts.code.SeriesType;
 
 /**
  * 地图
@@ -41,7 +41,7 @@ public class Map extends Series<Map> {
     /**
      * 选中模式，默认关闭，可选single，multiple
      *
-     * @see com.github.abel533.echarts.code.SelectedMode
+     * @see net.huadong.tech.echarts.code.SelectedMode
      */
     private Object selectedMode;
     /**
@@ -57,7 +57,7 @@ public class Map extends Series<Map> {
     /**
      * 地图数值计算方式，默认为加和，可选为：'sum'（总数） | 'average'（均值）
      *
-     * @see com.github.abel533.echarts.code.Calculation
+     * @see net.huadong.tech.echarts.code.Calculation
      */
     private Calculation mapValueCalculation;
     /**

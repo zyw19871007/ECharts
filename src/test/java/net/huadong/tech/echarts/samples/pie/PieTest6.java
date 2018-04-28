@@ -24,15 +24,15 @@
 
 package net.huadong.tech.echarts.samples.pie;
 
-import com.github.abel533.echarts.code.Tool;
-import com.github.abel533.echarts.code.X;
-import com.github.abel533.echarts.data.Data;
-import com.github.abel533.echarts.series.Pie;
-import com.github.abel533.echarts.style.ItemStyle;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.Label;
 import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.code.Tool;
+import net.huadong.tech.echarts.code.X;
 import net.huadong.tech.echarts.code.Y;
+import net.huadong.tech.echarts.data.Data;
+import net.huadong.tech.echarts.series.Pie;
+import net.huadong.tech.echarts.style.ItemStyle;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

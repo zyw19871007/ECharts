@@ -24,16 +24,16 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.Easing;
-import com.github.abel533.echarts.code.Symbol;
-import com.github.abel533.echarts.option.NoDataLoadingOption;
-import com.github.abel533.echarts.series.Parallel;
-import com.github.abel533.echarts.series.Series;
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.axis.Axis;
+import net.huadong.tech.echarts.code.Easing;
+import net.huadong.tech.echarts.code.Symbol;
 import net.huadong.tech.echarts.code.Trigger;
+import net.huadong.tech.echarts.option.NoDataLoadingOption;
+import net.huadong.tech.echarts.series.Parallel;
+import net.huadong.tech.echarts.series.Series;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 import java.io.Serializable;
 import java.util.ArrayList;

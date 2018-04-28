@@ -24,18 +24,17 @@
 
 package net.huadong.tech.echarts.samples.pie;
 
-import com.github.abel533.echarts.Option;
-import com.github.abel533.echarts.code.Magic;
-import com.github.abel533.echarts.code.Tool;
-import com.github.abel533.echarts.code.X;
-import com.github.abel533.echarts.data.LineData;
-import com.github.abel533.echarts.data.PieData;
-import com.github.abel533.echarts.feature.MagicType;
-import com.github.abel533.echarts.series.Funnel;
-import com.github.abel533.echarts.series.Pie;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.Option;
+import net.huadong.tech.echarts.code.Magic;
+import net.huadong.tech.echarts.code.Tool;
 import net.huadong.tech.echarts.code.Trigger;
+import net.huadong.tech.echarts.code.X;
+import net.huadong.tech.echarts.data.LineData;
+import net.huadong.tech.echarts.data.PieData;
+import net.huadong.tech.echarts.feature.MagicType;
+import net.huadong.tech.echarts.series.Funnel;
+import net.huadong.tech.echarts.series.Pie;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

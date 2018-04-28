@@ -1,8 +1,8 @@
 package net.huadong.tech.echarts.series.other;
 
-import com.github.abel533.echarts.code.Layout;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Layout;
 
 import java.io.Serializable;
 

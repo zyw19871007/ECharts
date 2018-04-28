@@ -24,14 +24,11 @@
 
 package net.huadong.tech.echarts.samples.scatter;
 
-import com.github.abel533.echarts.code.*;
-import com.github.abel533.echarts.series.Scatter;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.axis.TimeAxis;
 import net.huadong.tech.echarts.axis.ValueAxis;
-import net.huadong.tech.echarts.code.Orient;
-import net.huadong.tech.echarts.code.Trigger;
-import net.huadong.tech.echarts.code.Y;
+import net.huadong.tech.echarts.code.*;
+import net.huadong.tech.echarts.series.Scatter;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Ignore;
 import org.junit.Test;
 

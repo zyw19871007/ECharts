@@ -24,7 +24,7 @@
 
 package net.huadong.tech.echarts.style;
 
-import com.github.abel533.echarts.code.LineType;
+import net.huadong.tech.echarts.code.LineType;
 import net.huadong.tech.echarts.style.itemstyle.Emphasis;
 import net.huadong.tech.echarts.style.itemstyle.Normal;
 
@@ -48,7 +48,7 @@ public class LineStyle implements Serializable {
     /**
      * 线条样式，可选为：'solid' | 'dotted' | 'dashed'
      *
-     * @see com.github.abel533.echarts.code.LineType
+     * @see net.huadong.tech.echarts.code.LineType
      */
     private LineType type;
     /**

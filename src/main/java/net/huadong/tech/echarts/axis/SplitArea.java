@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.axis;
 
-import com.github.abel533.echarts.style.AreaStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.AreaStyle;
 
 /**
  * 分隔区域
@@ -46,7 +46,7 @@ public class SplitArea implements java.io.Serializable {
     /**
      * 属性areaStyle（详见areaStyle）控制区域样式
      *
-     * @see com.github.abel533.echarts.style.AreaStyle
+     * @see net.huadong.tech.echarts.style.AreaStyle
      */
     private AreaStyle areaStyle;
 
@@ -80,7 +80,7 @@ public class SplitArea implements java.io.Serializable {
     /**
      * 属性areaStyle（详见areaStyle）控制区域样式
      *
-     * @see com.github.abel533.echarts.style.AreaStyle
+     * @see net.huadong.tech.echarts.style.AreaStyle
      */
     public AreaStyle areaStyle() {
         if (this.areaStyle == null) {

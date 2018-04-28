@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.X;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.X;
 import net.huadong.tech.echarts.code.Y;
 
 import java.io.Serializable;
@@ -48,7 +48,7 @@ public abstract class Basic<T> implements Serializable {
     /**
      * 水平安放位置，默认为左侧，可选为：'center' | 'left' | 'right' | {number}（x坐标，单位px）
      *
-     * @see com.github.abel533.echarts.code.X
+     * @see net.huadong.tech.echarts.code.X
      */
     private Object x;
     /**

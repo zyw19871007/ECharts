@@ -24,13 +24,13 @@
 
 package net.huadong.tech.echarts.samples.map;
 
-import com.github.abel533.echarts.code.SelectedMode;
-import com.github.abel533.echarts.code.X;
-import com.github.abel533.echarts.data.Data;
-import com.github.abel533.echarts.series.EMap;
-import com.github.abel533.echarts.series.MapLocation;
-import com.github.abel533.echarts.util.EnhancedOption;
+import net.huadong.tech.echarts.code.SelectedMode;
+import net.huadong.tech.echarts.code.X;
 import net.huadong.tech.echarts.code.Y;
+import net.huadong.tech.echarts.data.Data;
+import net.huadong.tech.echarts.series.EMap;
+import net.huadong.tech.echarts.series.MapLocation;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

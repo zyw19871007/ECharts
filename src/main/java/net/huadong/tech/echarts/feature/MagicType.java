@@ -24,8 +24,8 @@
 
 package net.huadong.tech.echarts.feature;
 
-import com.github.abel533.echarts.code.Magic;
-import com.github.abel533.echarts.series.Funnel;
+import net.huadong.tech.echarts.code.Magic;
+import net.huadong.tech.echarts.series.Funnel;
 
 import java.util.HashMap;
 import java.util.Map;

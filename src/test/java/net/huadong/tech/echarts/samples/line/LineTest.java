@@ -24,13 +24,13 @@
 
 package net.huadong.tech.echarts.samples.line;
 
-import com.github.abel533.echarts.code.Symbol;
-import com.github.abel533.echarts.data.LineData;
-import com.github.abel533.echarts.series.Line;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.axis.CategoryAxis;
 import net.huadong.tech.echarts.axis.ValueAxis;
+import net.huadong.tech.echarts.code.Symbol;
 import net.huadong.tech.echarts.code.Trigger;
+import net.huadong.tech.echarts.data.LineData;
+import net.huadong.tech.echarts.series.Line;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

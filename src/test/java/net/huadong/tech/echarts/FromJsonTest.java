@@ -24,8 +24,8 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.json.GsonUtil;
-import com.github.abel533.echarts.series.Bar;
+import net.huadong.tech.echarts.json.GsonUtil;
+import net.huadong.tech.echarts.series.Bar;
 import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 

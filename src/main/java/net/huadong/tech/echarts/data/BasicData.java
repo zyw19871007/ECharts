@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.data;
 
-import com.github.abel533.echarts.code.MarkType;
-import com.github.abel533.echarts.code.Symbol;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.MarkType;
+import net.huadong.tech.echarts.code.Symbol;
 import net.huadong.tech.echarts.style.ItemStyle;
 import net.huadong.tech.echarts.style.TextStyle;
 

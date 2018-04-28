@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.SeriesType;
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.code.SeriesType;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 /**
  * 『箱形图』、『盒须图』、『盒式图』、『盒状图』、『箱线图』

@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.AbstractData;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 /**
  * Description: MarkPoint
@@ -40,19 +40,19 @@ public class MarkPoint extends AbstractData<MarkPoint> {
     /**
      * 标注类型
      *
-     * @see com.github.abel533.echarts.series.Series#symbol
+     * @see net.huadong.tech.echarts.series.Series#symbol
      */
     private Object symbol;
     /**
      * 标注大小
      *
-     * @see com.github.abel533.echarts.series.Series#symbolSize
+     * @see net.huadong.tech.echarts.series.Series#symbolSize
      */
     private Object symbolSize;
     /**
      * 标注图形旋转角度
      *
-     * @see com.github.abel533.echarts.series.Series#symbolRoate
+     * @see net.huadong.tech.echarts.series.Series#symbolRoate
      */
     private Object symbolRoate;
     /**
@@ -62,19 +62,19 @@ public class MarkPoint extends AbstractData<MarkPoint> {
     /**
      * 标注图形炫光特效
      *
-     * @see com.github.abel533.echarts.series.Effect
+     * @see net.huadong.tech.echarts.series.Effect
      */
     private Effect effect;
     /**
      * 标注图形样式属性
      *
-     * @see com.github.abel533.echarts.series.Series#itemStyle
+     * @see net.huadong.tech.echarts.series.Series#itemStyle
      */
     private ItemStyle itemStyle;
     /**
      * 地图特有，标注图形定位坐标
      *
-     * @see com.github.abel533.echarts.series.Map#geoCoord
+     * @see net.huadong.tech.echarts.series.Map#geoCoord
      */
     private GeoCoord geoCoord;
 
@@ -169,7 +169,7 @@ public class MarkPoint extends AbstractData<MarkPoint> {
     /**
      * 标注图形炫光特效
      *
-     * @see com.github.abel533.echarts.series.Effect
+     * @see net.huadong.tech.echarts.series.Effect
      */
     public Effect effect() {
         if (this.effect == null) {
@@ -181,8 +181,8 @@ public class MarkPoint extends AbstractData<MarkPoint> {
     /**
      * 标线图形样式属性
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
-     * @see com.github.abel533.echarts.series.Series#itemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.series.Series#itemStyle
      */
     public ItemStyle itemStyle() {
         if (this.itemStyle == null) {

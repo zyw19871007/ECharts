@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.DataZoomType;
-import com.github.abel533.echarts.code.FilterMode;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.DataZoomType;
+import net.huadong.tech.echarts.code.FilterMode;
 import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.style.TextStyle;
 
 import java.util.Date;
 

@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.series.force;
 
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 import java.io.Serializable;
 
@@ -48,7 +48,7 @@ public class Category implements Serializable {
     /**
      * 所有该类目的节点的形状, 详见 symbolList
      *
-     * @see com.github.abel533.echarts.code.Symbol
+     * @see net.huadong.tech.echarts.code.Symbol
      */
     private Object symbol;
     /**
@@ -70,13 +70,13 @@ public class Category implements Serializable {
     /**
      * 详见 itemStyle
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     private ItemStyle itemStyle;
     /**
      * 详见 itemStyle
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     private ItemStyle label;
 
@@ -201,7 +201,7 @@ public class Category implements Serializable {
     /**
      * 详见 itemStyle
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     public ItemStyle itemStyle() {
         if (this.itemStyle == null) {

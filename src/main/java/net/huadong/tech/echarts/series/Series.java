@@ -24,14 +24,13 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.*;
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.AbstractData;
 import net.huadong.tech.echarts.Chart;
 import net.huadong.tech.echarts.Tooltip;
-import net.huadong.tech.echarts.code.Y;
+import net.huadong.tech.echarts.code.*;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 /**
  * Description: Series
@@ -64,7 +63,7 @@ public abstract class Series<T> extends AbstractData<T> implements Chart {
     /**
      * 图表类型，必要参数！如为空或不支持类型，则该系列数据不被显示
      *
-     * @see com.github.abel533.echarts.code.SeriesType
+     * @see net.huadong.tech.echarts.code.SeriesType
      */
     private SeriesType type;
     /**
@@ -80,7 +79,7 @@ public abstract class Series<T> extends AbstractData<T> implements Chart {
     /**
      * 图形样式
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     private ItemStyle itemStyle;
     /**
@@ -92,13 +91,13 @@ public abstract class Series<T> extends AbstractData<T> implements Chart {
     /**
      * 标线
      *
-     * @see com.github.abel533.echarts.series.MarkLine
+     * @see net.huadong.tech.echarts.series.MarkLine
      */
     private MarkLine markLine;
     /**
      * 标志图形类型，默认自动选择（8种类型循环使用，不显示标志图形可设为'none'）
      *
-     * @see com.github.abel533.echarts.code.Symbol
+     * @see net.huadong.tech.echarts.code.Symbol
      */
     private Object symbol;
     /**
@@ -515,7 +514,7 @@ public abstract class Series<T> extends AbstractData<T> implements Chart {
     /**
      * 图形样式
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     public ItemStyle itemStyle() {
         if (this.itemStyle == null) {
@@ -539,7 +538,7 @@ public abstract class Series<T> extends AbstractData<T> implements Chart {
     /**
      * 标线
      *
-     * @see com.github.abel533.echarts.series.MarkLine
+     * @see net.huadong.tech.echarts.series.MarkLine
      */
     public MarkLine markLine() {
         if (this.markLine == null) {

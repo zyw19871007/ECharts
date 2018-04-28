@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.axis;
 
-import com.github.abel533.echarts.style.LineStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.LineStyle;
 
 import java.io.Serializable;
 
@@ -52,7 +52,7 @@ public class AxisLine implements Serializable {
     /**
      * {color: '#48b', width: 2, type: 'solid'}
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private LineStyle lineStyle;
 
@@ -93,7 +93,7 @@ public class AxisLine implements Serializable {
     /**
      * {color: '#48b', width: 2, type: 'solid'}
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     public LineStyle lineStyle() {
         if (this.lineStyle == null) {

@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.SelectedMode;
-import com.github.abel533.echarts.data.RangeData;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.code.SelectedMode;
+import net.huadong.tech.echarts.data.RangeData;
+import net.huadong.tech.echarts.style.TextStyle;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -114,7 +114,7 @@ public class DataRange extends Basic<DataRange> implements Component {
     /**
      * 选择模式，默认开启图例开关
      *
-     * @see com.github.abel533.echarts.code.SelectedMode
+     * @see net.huadong.tech.echarts.code.SelectedMode
      */
     private Object selectedMode;
 

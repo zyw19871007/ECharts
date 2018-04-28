@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.series.gauge;
 
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.TextStyle;
 
 import java.io.Serializable;
 

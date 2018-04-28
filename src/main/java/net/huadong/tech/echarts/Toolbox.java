@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.Tool;
-import com.github.abel533.echarts.feature.Feature;
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.code.Tool;
+import net.huadong.tech.echarts.feature.Feature;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

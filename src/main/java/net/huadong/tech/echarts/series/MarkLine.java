@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.AbstractData;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 /**
  * Description: MarkLine
@@ -40,7 +40,7 @@ public class MarkLine extends AbstractData<MarkLine> {
     /**
      * 标线起始和结束的symbol介绍类型，如果都一样，可以直接传string，同series中的symbol
      *
-     * @see com.github.abel533.echarts.code.Symbol
+     * @see net.huadong.tech.echarts.code.Symbol
      * @see Series#symbol
      */
     private Object symbol;
@@ -65,7 +65,7 @@ public class MarkLine extends AbstractData<MarkLine> {
     /**
      * 标线图形样式属性
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      * @see Series#itemStyle
      */
     private ItemStyle itemStyle;
@@ -238,7 +238,7 @@ public class MarkLine extends AbstractData<MarkLine> {
     /**
      * 标线图形样式属性
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      * @see Series#itemStyle
      */
     public ItemStyle itemStyle() {

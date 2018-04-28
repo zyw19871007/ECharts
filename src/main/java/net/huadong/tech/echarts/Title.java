@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.X;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.X;
+import net.huadong.tech.echarts.style.TextStyle;
 
 /**
  * @author liuzh
@@ -62,19 +62,19 @@ public class Title extends Basic<Title> implements Component {
     /**
      * 水平对齐方式，默认根据x设置自动调整，可选为： left' | 'right' | 'center
      *
-     * @see com.github.abel533.echarts.code.X
+     * @see net.huadong.tech.echarts.code.X
      */
     private X textAlign;
     /**
      * 主标题文本样式（详见textStyle）
      *
-     * @see com.github.abel533.echarts.style.TextStyle
+     * @see net.huadong.tech.echarts.style.TextStyle
      */
     private TextStyle textStyle;
     /**
      * 默认值{color: '#aaa'}，副标题文本样式
      *
-     * @see com.github.abel533.echarts.style.TextStyle
+     * @see net.huadong.tech.echarts.style.TextStyle
      */
     private TextStyle subtextStyle;
     /**
@@ -224,7 +224,7 @@ public class Title extends Basic<Title> implements Component {
     /**
      * 主标题文本样式（详见textStyle）
      *
-     * @see com.github.abel533.echarts.style.TextStyle
+     * @see net.huadong.tech.echarts.style.TextStyle
      */
     public TextStyle textStyle() {
         if (this.textStyle == null) {
@@ -236,7 +236,7 @@ public class Title extends Basic<Title> implements Component {
     /**
      * 默认值{color: '#aaa'}，副标题文本样式
      *
-     * @see com.github.abel533.echarts.style.TextStyle
+     * @see net.huadong.tech.echarts.style.TextStyle
      */
     public TextStyle subtextStyle() {
         if (this.subtextStyle == null) {

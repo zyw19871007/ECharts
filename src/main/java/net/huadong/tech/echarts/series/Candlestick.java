@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.SeriesType;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.code.SeriesType;
 
 /**
  * Description: K

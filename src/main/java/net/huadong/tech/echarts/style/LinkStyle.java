@@ -24,7 +24,7 @@
 
 package net.huadong.tech.echarts.style;
 
-import com.github.abel533.echarts.code.LinkType;
+import net.huadong.tech.echarts.code.LinkType;
 
 import java.io.Serializable;
 

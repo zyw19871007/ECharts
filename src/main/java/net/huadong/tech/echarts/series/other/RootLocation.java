@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.series.other;
 
-import com.github.abel533.echarts.code.X;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.X;
 import net.huadong.tech.echarts.code.Y;
 
 import java.io.Serializable;

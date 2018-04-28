@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.samples.gauge;
 
-import com.github.abel533.echarts.code.Tool;
-import com.github.abel533.echarts.data.Data;
-import com.github.abel533.echarts.series.Gauge;
-import com.github.abel533.echarts.series.gauge.Detail;
-import com.github.abel533.echarts.util.EnhancedOption;
+import net.huadong.tech.echarts.code.Tool;
+import net.huadong.tech.echarts.data.Data;
+import net.huadong.tech.echarts.series.Gauge;
+import net.huadong.tech.echarts.series.gauge.Detail;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

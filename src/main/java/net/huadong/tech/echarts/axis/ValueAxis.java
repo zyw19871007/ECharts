@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.axis;
 
-import com.github.abel533.echarts.code.NameLocation;
-import com.github.abel533.echarts.style.LineStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.AxisType;
+import net.huadong.tech.echarts.code.NameLocation;
+import net.huadong.tech.echarts.style.LineStyle;
 
 /**
  * 值轴
@@ -41,7 +41,7 @@ public class ValueAxis extends Axis<ValueAxis> {
     /**
      * 坐标轴名称位置，默认为'end'，可选为：'start' | 'end'
      *
-     * @see com.github.abel533.echarts.code.NameLocation
+     * @see net.huadong.tech.echarts.code.NameLocation
      */
     private NameLocation nameLocation;
     /**

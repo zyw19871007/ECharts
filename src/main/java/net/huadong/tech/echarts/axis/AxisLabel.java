@@ -24,7 +24,7 @@
 
 package net.huadong.tech.echarts.axis;
 
-import com.github.abel533.echarts.AbstractLabel;
+import net.huadong.tech.echarts.AbstractLabel;
 
 /**
  * 坐标轴专用，和Label没有区别

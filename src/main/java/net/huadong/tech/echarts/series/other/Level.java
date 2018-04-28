@@ -1,9 +1,9 @@
 package net.huadong.tech.echarts.series.other;
 
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.ColorMappingBy;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 import java.io.Serializable;
 
@@ -53,7 +53,7 @@ public class Level implements Serializable {
     /**
      * 图形样式
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     private ItemStyle itemStyle;
 

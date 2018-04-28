@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.SeriesType;
-import com.github.abel533.echarts.code.Sort;
-import com.github.abel533.echarts.code.X;
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.SeriesType;
+import net.huadong.tech.echarts.code.Sort;
+import net.huadong.tech.echarts.code.X;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 /**
  * 漏斗图
@@ -78,7 +78,7 @@ public class Funnel extends Series<Funnel> {
     /**
      * 数据排序， 可以取ascending, descending
      *
-     * @see com.github.abel533.echarts.code.Sort
+     * @see net.huadong.tech.echarts.code.Sort
      */
     private Sort sort;
     /**

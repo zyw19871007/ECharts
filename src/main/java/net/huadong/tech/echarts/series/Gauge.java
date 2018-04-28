@@ -24,7 +24,6 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.SeriesType;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.Label;
@@ -32,6 +31,7 @@ import net.huadong.tech.echarts.Title;
 import net.huadong.tech.echarts.axis.AxisLine;
 import net.huadong.tech.echarts.axis.AxisTick;
 import net.huadong.tech.echarts.axis.SplitLine;
+import net.huadong.tech.echarts.code.SeriesType;
 import net.huadong.tech.echarts.series.gauge.Detail;
 import net.huadong.tech.echarts.series.gauge.Pointer;
 
@@ -75,7 +75,7 @@ public class Gauge extends Series<Gauge> {
     /**
      * 坐标轴线，默认显示
      *
-     * @see com.github.abel533.echarts.series.Line
+     * @see net.huadong.tech.echarts.series.Line
      */
     private AxisLine axisLine;
     /**
@@ -347,7 +347,7 @@ public class Gauge extends Series<Gauge> {
     /**
      * 坐标轴线，默认显示
      *
-     * @see com.github.abel533.echarts.series.Line
+     * @see net.huadong.tech.echarts.series.Line
      */
     public AxisLine axisLine() {
         if (this.axisLine == null) {

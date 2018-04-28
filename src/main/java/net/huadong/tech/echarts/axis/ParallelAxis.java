@@ -1,11 +1,11 @@
 package net.huadong.tech.echarts.axis;
 
-import com.github.abel533.echarts.code.NameLocation;
-import com.github.abel533.echarts.style.AreaSelectStyle;
-import com.github.abel533.echarts.style.NameTextStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.AxisType;
+import net.huadong.tech.echarts.code.NameLocation;
+import net.huadong.tech.echarts.style.AreaSelectStyle;
+import net.huadong.tech.echarts.style.NameTextStyle;
 
 /**
  * 平行坐标系

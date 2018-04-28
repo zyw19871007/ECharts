@@ -62,7 +62,7 @@ public class Legend extends Basic<Legend> implements Data<Legend>, Component {
     /**
      * 选择模式，默认开启图例开关
      *
-     * @see com.github.abel533.echarts.code.SelectedMode
+     * @see net.huadong.tech.echarts.code.SelectedMode
      */
     private Object selectedMode;
     /**

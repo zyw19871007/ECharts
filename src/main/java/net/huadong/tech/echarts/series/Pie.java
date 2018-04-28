@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.SelectedMode;
-import com.github.abel533.echarts.code.SeriesType;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.RoseType;
+import net.huadong.tech.echarts.code.SelectedMode;
+import net.huadong.tech.echarts.code.SeriesType;
 
 /**
  * 饼图
@@ -72,7 +72,7 @@ public class Pie extends Series<Pie> {
     /**
      * 选中模式，默认关闭，可选single，multiple
      *
-     * @see com.github.abel533.echarts.code.SelectedMode
+     * @see net.huadong.tech.echarts.code.SelectedMode
      */
     private SelectedMode selectedMode;
 

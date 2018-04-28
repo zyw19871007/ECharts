@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.Position;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Position;
+import net.huadong.tech.echarts.style.TextStyle;
 
 import java.io.Serializable;
 
@@ -59,7 +59,7 @@ public abstract class AbstractLabel<T> implements Serializable {
      */
     private Object formatter;
     /**
-     * 文字样式（详见{@link com.github.abel533.echarts.style.TextStyle}）
+     * 文字样式（详见{@link net.huadong.tech.echarts.style.TextStyle}）
      */
     private TextStyle textStyle;
     /**
@@ -219,7 +219,7 @@ public abstract class AbstractLabel<T> implements Serializable {
     }
 
     /**
-     * 文字样式（详见{@link com.github.abel533.echarts.style.TextStyle}）
+     * 文字样式（详见{@link net.huadong.tech.echarts.style.TextStyle}）
      */
     public TextStyle textStyle() {
         if (this.textStyle == null) {

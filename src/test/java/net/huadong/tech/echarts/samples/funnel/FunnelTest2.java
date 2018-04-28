@@ -24,15 +24,15 @@
 
 package net.huadong.tech.echarts.samples.funnel;
 
-import com.github.abel533.echarts.LabelLine;
-import com.github.abel533.echarts.code.Position;
-import com.github.abel533.echarts.code.Tool;
-import com.github.abel533.echarts.data.Data;
-import com.github.abel533.echarts.series.Funnel;
-import com.github.abel533.echarts.style.TextStyle;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.Label;
+import net.huadong.tech.echarts.LabelLine;
+import net.huadong.tech.echarts.code.Position;
+import net.huadong.tech.echarts.code.Tool;
 import net.huadong.tech.echarts.code.Trigger;
+import net.huadong.tech.echarts.data.Data;
+import net.huadong.tech.echarts.series.Funnel;
+import net.huadong.tech.echarts.style.TextStyle;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

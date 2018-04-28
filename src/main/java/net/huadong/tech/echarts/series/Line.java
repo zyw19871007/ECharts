@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.SeriesType;
-import com.github.abel533.echarts.style.AreaStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.DataFilter;
+import net.huadong.tech.echarts.code.SeriesType;
+import net.huadong.tech.echarts.style.AreaStyle;
 
 /**
  * @author liuzh

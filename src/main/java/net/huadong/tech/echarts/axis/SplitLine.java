@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.axis;
 
-import com.github.abel533.echarts.style.LineStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.LineStyle;
 
 import java.io.Serializable;
 
@@ -52,7 +52,7 @@ public class SplitLine implements Serializable {
     /**
      * 属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private LineStyle lineStyle;
 
@@ -103,7 +103,7 @@ public class SplitLine implements Serializable {
     /**
      * 属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     public LineStyle lineStyle() {
         if (this.lineStyle == null) {

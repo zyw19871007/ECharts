@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.Position;
-import com.github.abel533.echarts.code.TriggerOn;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Position;
 import net.huadong.tech.echarts.code.Trigger;
+import net.huadong.tech.echarts.code.TriggerOn;
+import net.huadong.tech.echarts.style.TextStyle;
 
 /**
  * @author liuzh
@@ -93,7 +93,7 @@ public class Tooltip extends Basic<Tooltip> implements Component {
     /**
      * 文本样式，默认为白色字体
      *
-     * @see com.github.abel533.echarts.style.TextStyle
+     * @see net.huadong.tech.echarts.style.TextStyle
      */
     private TextStyle textStyle;
     /**
@@ -332,7 +332,7 @@ public class Tooltip extends Basic<Tooltip> implements Component {
     /**
      * 文本样式，默认为白色字体
      *
-     * @see com.github.abel533.echarts.style.TextStyle
+     * @see net.huadong.tech.echarts.style.TextStyle
      */
     public TextStyle textStyle() {
         if (this.textStyle == null) {

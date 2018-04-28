@@ -24,14 +24,14 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.TimeLineType;
-import com.github.abel533.echarts.style.CheckpointStyle;
-import com.github.abel533.echarts.style.ControlStyle;
-import com.github.abel533.echarts.style.LineStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.AxisType;
 import net.huadong.tech.echarts.code.ControlPosition;
+import net.huadong.tech.echarts.code.TimeLineType;
+import net.huadong.tech.echarts.style.CheckpointStyle;
+import net.huadong.tech.echarts.style.ControlStyle;
+import net.huadong.tech.echarts.style.LineStyle;
 
 /**
  * Description: Timeline
@@ -68,7 +68,7 @@ public class Timeline extends AbstractData<Timeline> implements Component {
     /**
      * 默认为time,模式是时间类型，时间轴间隔根据时间跨度计算，可选为：'number'
      *
-     * @see com.github.abel533.echarts.code.TimeLineType
+     * @see net.huadong.tech.echarts.code.TimeLineType
      */
     private TimeLineType type;
     /**
@@ -143,7 +143,7 @@ public class Timeline extends AbstractData<Timeline> implements Component {
     /**
      * 默认值{color: '#666', width: 1, type: 'dashed'}，时间轴轴线样式lineStyle控制线条样式，
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private LineStyle lineStyle;
     /**
@@ -153,7 +153,7 @@ public class Timeline extends AbstractData<Timeline> implements Component {
     /**
      * 时间轴当前点
      *
-     * @see com.github.abel533.echarts.style.CheckpointStyle
+     * @see net.huadong.tech.echarts.style.CheckpointStyle
      */
     private CheckpointStyle checkpointStyle;
     /**
@@ -165,8 +165,8 @@ public class Timeline extends AbstractData<Timeline> implements Component {
     /**
      * 默认值emptyDiamond，轴点symbol，同serie.symbol
      *
-     * @see com.github.abel533.echarts.code.Symbol
-     * @see com.github.abel533.echarts.series.Series#symbol
+     * @see net.huadong.tech.echarts.code.Symbol
+     * @see net.huadong.tech.echarts.series.Series#symbol
      */
     private Object symbol;
     /**
@@ -514,7 +514,7 @@ public class Timeline extends AbstractData<Timeline> implements Component {
     /**
      * 默认值{color: '#666', width: 1, type: 'dashed'}，时间轴轴线样式lineStyle控制线条样式，
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     public LineStyle lineStyle() {
         if (this.lineStyle == null) {
@@ -536,7 +536,7 @@ public class Timeline extends AbstractData<Timeline> implements Component {
     /**
      * 时间轴当前点
      *
-     * @see com.github.abel533.echarts.style.CheckpointStyle
+     * @see net.huadong.tech.echarts.style.CheckpointStyle
      */
     public CheckpointStyle checkpointStyle() {
         if (this.checkpointStyle == null) {

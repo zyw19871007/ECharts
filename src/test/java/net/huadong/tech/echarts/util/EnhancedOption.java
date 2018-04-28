@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.util;
 
-import com.github.abel533.echarts.TestConfig;
-import com.github.abel533.echarts.json.GsonOption;
-import com.github.abel533.echarts.json.GsonUtil;
-import com.github.abel533.echarts.json.OptionUtil;
+import net.huadong.tech.echarts.TestConfig;
+import net.huadong.tech.echarts.json.GsonOption;
+import net.huadong.tech.echarts.json.GsonUtil;
+import net.huadong.tech.echarts.json.OptionUtil;
 
 /**
  * 增强的Option - 主要用于测试、演示

@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.Symbol;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Symbol;
 
 import java.io.Serializable;
 

@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts.axis;
 
-import com.github.abel533.echarts.AbstractData;
-import com.github.abel533.echarts.Component;
-import com.github.abel533.echarts.code.X;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.AbstractData;
+import net.huadong.tech.echarts.Component;
 import net.huadong.tech.echarts.code.AxisType;
+import net.huadong.tech.echarts.code.X;
 import net.huadong.tech.echarts.code.Y;
 
 import java.util.ArrayList;
@@ -56,7 +56,7 @@ public abstract class Axis<T> extends AbstractData<T> implements Component {
     /**
      * 坐标轴类型，横轴默认为类目型'bottom'，纵轴默认为数值型'left'，可选为：'bottom' | 'top' | 'left' | 'right'
      *
-     * @see com.github.abel533.echarts.code.X
+     * @see net.huadong.tech.echarts.code.X
      * @see Y
      */
     private Object position;
@@ -67,27 +67,27 @@ public abstract class Axis<T> extends AbstractData<T> implements Component {
     /**
      * 坐标轴线，默认显示，属性show控制显示与否，属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.axis.AxisLine
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.axis.AxisLine
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private AxisLine axisLine;
     /**
      * 坐标轴小标记，默认不显示，属性show控制显示与否，属性length控制线长，属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.axis.AxisTick
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.axis.AxisTick
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private AxisTick axisTick;
     /**
      * 坐标轴文本标签，详见axis.axisLabel
      *
-     * @see com.github.abel533.echarts.axis.AxisLabel
+     * @see net.huadong.tech.echarts.axis.AxisLabel
      */
     private AxisLabel axisLabel;
     /**
      * 分隔线，默认显示，属性show控制显示与否，属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.axis.SplitLine
+     * @see net.huadong.tech.echarts.axis.SplitLine
      */
     private SplitLine splitLine;
     /**
@@ -406,8 +406,8 @@ public abstract class Axis<T> extends AbstractData<T> implements Component {
     /**
      * 坐标轴线，默认显示，属性show控制显示与否，属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.axis.AxisLine
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.axis.AxisLine
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     public AxisLine axisLine() {
         if (this.axisLine == null) {
@@ -429,8 +429,8 @@ public abstract class Axis<T> extends AbstractData<T> implements Component {
     /**
      * 坐标轴小标记，默认不显示，属性show控制显示与否，属性length控制线长，属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.axis.AxisTick
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.axis.AxisTick
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     public AxisTick axisTick() {
         if (this.axisTick == null) {
@@ -452,7 +452,7 @@ public abstract class Axis<T> extends AbstractData<T> implements Component {
     /**
      * 坐标轴文本标签，详见axis.axisLabel
      *
-     * @see com.github.abel533.echarts.axis.AxisLabel
+     * @see net.huadong.tech.echarts.axis.AxisLabel
      */
     public AxisLabel axisLabel() {
         if (this.axisLabel == null) {
@@ -474,7 +474,7 @@ public abstract class Axis<T> extends AbstractData<T> implements Component {
     /**
      * 分隔线，默认显示，属性show控制显示与否，属性lineStyle（详见lineStyle）控制线条样式
      *
-     * @see com.github.abel533.echarts.axis.SplitLine
+     * @see net.huadong.tech.echarts.axis.SplitLine
      */
     public SplitLine splitLine() {
         if (this.splitLine == null) {

@@ -24,17 +24,17 @@
 
 package net.huadong.tech.echarts.samples.scatter;
 
-import com.github.abel533.echarts.code.LineType;
-import com.github.abel533.echarts.code.PointerType;
-import com.github.abel533.echarts.code.Tool;
-import com.github.abel533.echarts.data.ScatterData;
-import com.github.abel533.echarts.series.Scatter;
-import com.github.abel533.echarts.style.LineStyle;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.AxisPointer;
 import net.huadong.tech.echarts.Tooltip;
 import net.huadong.tech.echarts.axis.ValueAxis;
+import net.huadong.tech.echarts.code.LineType;
+import net.huadong.tech.echarts.code.PointerType;
+import net.huadong.tech.echarts.code.Tool;
 import net.huadong.tech.echarts.code.Trigger;
+import net.huadong.tech.echarts.data.ScatterData;
+import net.huadong.tech.echarts.series.Scatter;
+import net.huadong.tech.echarts.style.LineStyle;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

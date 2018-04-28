@@ -24,8 +24,8 @@
 
 package net.huadong.tech.echarts.feature;
 
-import com.github.abel533.echarts.code.LineType;
-import com.github.abel533.echarts.style.LineStyle;
+import net.huadong.tech.echarts.code.LineType;
+import net.huadong.tech.echarts.style.LineStyle;
 
 import java.util.HashMap;
 import java.util.Map;

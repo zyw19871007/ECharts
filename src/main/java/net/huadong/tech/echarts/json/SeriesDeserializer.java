@@ -24,9 +24,8 @@
 
 package net.huadong.tech.echarts.json;
 
-import com.github.abel533.echarts.code.SeriesType;
-import com.github.abel533.echarts.series.*;
 import com.google.gson.*;
+import net.huadong.tech.echarts.code.SeriesType;
 import net.huadong.tech.echarts.series.*;
 
 import java.lang.reflect.Type;

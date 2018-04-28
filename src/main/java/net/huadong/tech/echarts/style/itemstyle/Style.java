@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.style.itemstyle;
 
-import com.github.abel533.echarts.code.Position;
-import com.github.abel533.echarts.style.*;
 import net.huadong.tech.echarts.Label;
 import net.huadong.tech.echarts.LabelLine;
+import net.huadong.tech.echarts.code.Position;
+import net.huadong.tech.echarts.style.*;
 
 import java.io.Serializable;
 
@@ -62,31 +62,31 @@ public abstract class Style<T> implements Serializable {
     /**
      * 线条样式
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private LineStyle lineStyle;
     /**
      * 区域样式
      *
-     * @see com.github.abel533.echarts.style.AreaStyle
+     * @see net.huadong.tech.echarts.style.AreaStyle
      */
     private AreaStyle areaStyle;
     /**
      * 和弦图 - 弦样式
      *
-     * @see com.github.abel533.echarts.style.ChordStyle
+     * @see net.huadong.tech.echarts.style.ChordStyle
      */
     private ChordStyle chordStyle;
     /**
      * 力导向图 - 弦样式
      *
-     * @see com.github.abel533.echarts.style.NodeStyle
+     * @see net.huadong.tech.echarts.style.NodeStyle
      */
     private NodeStyle nodeStyle;
     /**
      * 力导向图 - 弦样式
      *
-     * @see com.github.abel533.echarts.style.LinkStyle
+     * @see net.huadong.tech.echarts.style.LinkStyle
      */
     private LinkStyle linkStyle;
     /**
@@ -443,7 +443,7 @@ public abstract class Style<T> implements Serializable {
     /**
      * 线条样式
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     public LineStyle lineStyle() {
         if (this.lineStyle == null) {
@@ -455,7 +455,7 @@ public abstract class Style<T> implements Serializable {
     /**
      * 区域样式
      *
-     * @see com.github.abel533.echarts.style.AreaStyle
+     * @see net.huadong.tech.echarts.style.AreaStyle
      */
     public AreaStyle areaStyle() {
         if (this.areaStyle == null) {
@@ -467,7 +467,7 @@ public abstract class Style<T> implements Serializable {
     /**
      * 和弦图 - 弦样式
      *
-     * @see com.github.abel533.echarts.style.ChordStyle
+     * @see net.huadong.tech.echarts.style.ChordStyle
      */
     public ChordStyle chordStyle() {
         if (this.chordStyle == null) {
@@ -479,7 +479,7 @@ public abstract class Style<T> implements Serializable {
     /**
      * 力导向图 - 弦样式
      *
-     * @see com.github.abel533.echarts.style.NodeStyle
+     * @see net.huadong.tech.echarts.style.NodeStyle
      */
     public NodeStyle nodeStyle() {
         if (this.nodeStyle == null) {
@@ -491,7 +491,7 @@ public abstract class Style<T> implements Serializable {
     /**
      * 力导向图 - 弦样式
      *
-     * @see com.github.abel533.echarts.style.LinkStyle
+     * @see net.huadong.tech.echarts.style.LinkStyle
      */
     public LinkStyle linkStyle() {
         if (this.linkStyle == null) {

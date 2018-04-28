@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.Easing;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Easing;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +43,7 @@ public abstract class AbstractData<T> implements Data<T>, java.io.Serializable {
     /**
      * 标线图形数据
      *
-     * @see com.github.abel533.echarts.data.PointData
+     * @see net.huadong.tech.echarts.data.PointData
      */
     protected List data;
     /**

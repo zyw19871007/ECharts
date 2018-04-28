@@ -1,7 +1,7 @@
 package net.huadong.tech.echarts.style;
 
-import com.github.abel533.echarts.code.FontStyle;
-import com.github.abel533.echarts.code.FontWeight;
+import net.huadong.tech.echarts.code.FontStyle;
+import net.huadong.tech.echarts.code.FontWeight;
 
 import java.io.Serializable;
 

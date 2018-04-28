@@ -24,7 +24,6 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.axis.AxisLabel;
@@ -32,6 +31,7 @@ import net.huadong.tech.echarts.axis.AxisLine;
 import net.huadong.tech.echarts.axis.SplitArea;
 import net.huadong.tech.echarts.axis.SplitLine;
 import net.huadong.tech.echarts.code.PolarType;
+import net.huadong.tech.echarts.style.TextStyle;
 
 import java.util.ArrayList;
 import java.util.Arrays;

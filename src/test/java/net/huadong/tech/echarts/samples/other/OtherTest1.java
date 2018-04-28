@@ -24,11 +24,11 @@
 
 package net.huadong.tech.echarts.samples.other;
 
-import com.github.abel533.echarts.json.GsonOption;
-import com.github.abel533.echarts.series.Line;
 import net.huadong.tech.echarts.axis.CategoryAxis;
 import net.huadong.tech.echarts.axis.SplitArea;
 import net.huadong.tech.echarts.axis.ValueAxis;
+import net.huadong.tech.echarts.json.GsonOption;
+import net.huadong.tech.echarts.series.Line;
 import org.junit.Test;
 
 /**

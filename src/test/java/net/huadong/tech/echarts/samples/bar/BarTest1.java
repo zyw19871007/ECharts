@@ -24,16 +24,16 @@
 
 package net.huadong.tech.echarts.samples.bar;
 
-import com.github.abel533.echarts.code.Magic;
-import com.github.abel533.echarts.code.MarkType;
-import com.github.abel533.echarts.code.Tool;
-import com.github.abel533.echarts.data.PointData;
-import com.github.abel533.echarts.feature.MagicType;
-import com.github.abel533.echarts.series.Bar;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.axis.CategoryAxis;
 import net.huadong.tech.echarts.axis.ValueAxis;
+import net.huadong.tech.echarts.code.Magic;
+import net.huadong.tech.echarts.code.MarkType;
+import net.huadong.tech.echarts.code.Tool;
 import net.huadong.tech.echarts.code.Trigger;
+import net.huadong.tech.echarts.data.PointData;
+import net.huadong.tech.echarts.feature.MagicType;
+import net.huadong.tech.echarts.series.Bar;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 import java.util.Arrays;

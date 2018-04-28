@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts.series;
 
-import com.github.abel533.echarts.code.Layout;
-import com.github.abel533.echarts.code.Roam;
-import com.github.abel533.echarts.code.SeriesType;
-import com.github.abel533.echarts.code.Symbol;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Layout;
+import net.huadong.tech.echarts.code.Roam;
+import net.huadong.tech.echarts.code.SeriesType;
+import net.huadong.tech.echarts.code.Symbol;
 import net.huadong.tech.echarts.series.force.Category;
 import net.huadong.tech.echarts.series.force.Link;
 import net.huadong.tech.echarts.series.force.Node;

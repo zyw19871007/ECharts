@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.feature;
 
-import com.github.abel533.echarts.style.LineStyle;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.LineStyle;
+import net.huadong.tech.echarts.style.TextStyle;
 
 import java.io.Serializable;
 
@@ -74,8 +74,8 @@ public class Feature implements Serializable {
     /**
      * 类型
      *
-     * @see com.github.abel533.echarts.code.Magic
-     * @see com.github.abel533.echarts.code.LineType
+     * @see net.huadong.tech.echarts.code.Magic
+     * @see net.huadong.tech.echarts.code.LineType
      */
     private Object type;
     /**
@@ -89,13 +89,13 @@ public class Feature implements Serializable {
     /**
      * 线条颜色
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private LineStyle lineStyle;
     /**
      * 文字颜色
      *
-     * @see com.github.abel533.echarts.style.TextStyle
+     * @see net.huadong.tech.echarts.style.TextStyle
      */
     private TextStyle textStyle;
     /**

@@ -24,13 +24,13 @@
 
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.PointerType;
-import com.github.abel533.echarts.style.CrossStyle;
-import com.github.abel533.echarts.style.LineStyle;
-import com.github.abel533.echarts.style.ShadowStyle;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.PointerType;
+import net.huadong.tech.echarts.style.CrossStyle;
+import net.huadong.tech.echarts.style.LineStyle;
+import net.huadong.tech.echarts.style.ShadowStyle;
+import net.huadong.tech.echarts.style.TextStyle;
 
 import java.io.Serializable;
 
@@ -53,13 +53,13 @@ public class AxisPointer implements Serializable {
     /**
      * 默认为直线，可选为：'line' | 'shadow' | 'cross'
      *
-     * @see com.github.abel533.echarts.code.PointerType
+     * @see net.huadong.tech.echarts.code.PointerType
      */
     private PointerType type;
     /**
      * 设置直线指示器
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     private LineStyle lineStyle;
     /**
@@ -160,7 +160,7 @@ public class AxisPointer implements Serializable {
     /**
      * 设置直线指示器
      *
-     * @see com.github.abel533.echarts.style.LineStyle
+     * @see net.huadong.tech.echarts.style.LineStyle
      */
     public LineStyle lineStyle() {
         if (this.lineStyle == null) {

@@ -1,8 +1,8 @@
 package net.huadong.tech.echarts.series.other;
 
-import com.github.abel533.echarts.code.BrushType;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.BrushType;
 
 import java.io.Serializable;
 

@@ -24,7 +24,7 @@
 
 package net.huadong.tech.echarts.style;
 
-import com.github.abel533.echarts.code.BrushType;
+import net.huadong.tech.echarts.code.BrushType;
 
 /**
  * Description: NodeStyle

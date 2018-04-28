@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.series.force;
 
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -256,7 +256,7 @@ public class Node extends HashMap<String, Object> implements Serializable {
     /**
      * 详见 itemStyle
      *
-     * @see com.github.abel533.echarts.style.ItemStyle
+     * @see net.huadong.tech.echarts.style.ItemStyle
      */
     public ItemStyle itemStyle() {
         if (get("itemStyle") == null) {

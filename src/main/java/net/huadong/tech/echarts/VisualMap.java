@@ -1,10 +1,9 @@
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.*;
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
-import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.code.*;
+import net.huadong.tech.echarts.style.TextStyle;
 
 /**
  * 视觉映射组件，用于进行『视觉编码』，也就是将数据映射到视觉元素（视觉通道）

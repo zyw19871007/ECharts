@@ -24,9 +24,9 @@
 
 package net.huadong.tech.echarts.style;
 
-import com.github.abel533.echarts.code.FontStyle;
-import com.github.abel533.echarts.code.X;
 import net.huadong.tech.echarts.code.Baseline;
+import net.huadong.tech.echarts.code.FontStyle;
+import net.huadong.tech.echarts.code.X;
 
 import java.io.Serializable;
 
@@ -47,7 +47,7 @@ public class TextStyle implements Serializable {
     /**
      * 水平对齐方式，可选为：'left' | 'right' | 'center'
      *
-     * @see com.github.abel533.echarts.code.X
+     * @see net.huadong.tech.echarts.code.X
      */
     private X align;
     /**
@@ -78,7 +78,7 @@ public class TextStyle implements Serializable {
     /**
      * 粗细，可选为：'normal' | 'bold' | 'bolder' | 'lighter' | 100 | 200 |... | 900
      *
-     * @see com.github.abel533.echarts.code.FontWeight
+     * @see net.huadong.tech.echarts.code.FontWeight
      */
     private Object fontWeight;
 

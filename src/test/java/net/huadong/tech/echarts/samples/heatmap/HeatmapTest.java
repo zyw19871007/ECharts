@@ -24,12 +24,12 @@
 
 package net.huadong.tech.echarts.samples.heatmap;
 
-import com.github.abel533.echarts.code.Position;
-import com.github.abel533.echarts.code.X;
-import com.github.abel533.echarts.series.Heatmap;
-import com.github.abel533.echarts.util.EnhancedOption;
 import net.huadong.tech.echarts.axis.CategoryAxis;
 import net.huadong.tech.echarts.code.Orient;
+import net.huadong.tech.echarts.code.Position;
+import net.huadong.tech.echarts.code.X;
+import net.huadong.tech.echarts.series.Heatmap;
+import net.huadong.tech.echarts.util.EnhancedOption;
 import org.junit.Test;
 
 /**

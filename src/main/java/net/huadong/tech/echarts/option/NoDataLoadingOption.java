@@ -24,10 +24,10 @@
 
 package net.huadong.tech.echarts.option;
 
-import com.github.abel533.echarts.style.TextStyle;
 import lombok.Getter;
 import lombok.Setter;
 import net.huadong.tech.echarts.code.LoadingEffect;
+import net.huadong.tech.echarts.style.TextStyle;
 
 /**
  * 描述信息

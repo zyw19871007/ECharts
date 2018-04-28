@@ -1,9 +1,9 @@
 package net.huadong.tech.echarts;
 
-import com.github.abel533.echarts.code.Roam;
-import com.github.abel533.echarts.style.ItemStyle;
 import lombok.Getter;
 import lombok.Setter;
+import net.huadong.tech.echarts.code.Roam;
+import net.huadong.tech.echarts.style.ItemStyle;
 
 /**
  * @author liuzh
